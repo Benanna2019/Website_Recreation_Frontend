@@ -5,6 +5,8 @@ Time Frame to Finish:
 - 4-6hrs total to set up authorization and learn a new backend framework and set it up within the application. 
 - Total Time: 8-10hrs
 
+Check Assets Folder for Images of Application 
+
 I took liberties to change up the test and I used Nextjs for the frontend to demonstrate static generation with Nextjs for faster page loading. 
 
 I also set up authentication with Magic and the ability to post data to a backend, set up with Strapi.io. 

@@ -1,0 +1,301 @@
+.FileUpload__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #002d47;
+  height: 90%;
+  width: 40vw;
+  border: 0.25px solid white;
+  box-shadow: 0px 0px 10px 0 #000, 0 66px 15px 0px #ccc, 0 99px 5px 0px #fff;
+}
+
+.Top__Row__Icons__Container {
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 40vw;
+}
+
+.Left__Icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+}
+
+.Left__Text {
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Top__Row__Time {
+  width: 8rem;
+  margin-right: 5.5rem;
+  font-size: 18px;
+}
+
+.Top__Row__Battery {
+  transform: rotate(90deg);
+  margin-right: 2rem;
+  height: 3rem;
+  text-align: end;
+}
+
+.Battery__Icon {
+  font-size: 3rem;
+}
+
+.SecondRow__Icons {
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 40vw;
+  margin: 1rem;
+}
+
+.Menu__Icon {
+  margin: 1rem;
+}
+
+.Menu__Icon:hover {
+  content: "Disabled";
+  cursor: pointer;
+}
+
+.VerticalDots__Icon {
+  margin: 1rem;
+}
+
+.User__Photo__Name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 20%;
+  color: white;
+  padding-top: 2rem;
+}
+
+.Photo__Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.Photo__Img {
+  margin-left: 57px;
+}
+
+.Photo__Icon {
+  text-align: right;
+  width: 60px;
+}
+
+.Profile__Pic {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.Form__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 40%;
+}
+
+.Form__Input__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.Form__Input1 {
+  padding: 10px;
+  width: 25vw;
+}
+
+.Form__Input2 {
+  padding: 10px;
+  width: 25vw;
+}
+
+.Form__Input3 {
+  padding: 10px;
+  width: 25vw;
+}
+
+.Form__Input4 {
+  padding: 10px;
+  width: 25vw;
+}
+
+.Form__Input5 {
+  padding: 10px;
+  width: 25vw;
+}
+
+.Form__Input6 {
+  padding: 10px;
+  width: 25vw;
+}
+
+.input {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: #8f8f8f;
+}
+
+.input:hover,
+.input:focus {
+  color: white;
+  border-bottom: 3px solid white;
+  outline: none;
+}
+
+.input__password {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: #ffffff;
+}
+
+.password__button {
+  text-align: end;
+  border: none;
+  outline: none;
+  color: #4fc3f7;
+  width: 10rem;
+  height: 2rem;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.password__button:hover {
+  transform: translateY(-3px);
+}
+
+.password {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+.accesspin__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: #8f8f8f;
+}
+
+.input__accesspin {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  outline: none;
+  color: #8f8f8f;
+}
+
+.input__pairing {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: #8f8f8f;
+}
+
+.pairing__text {
+  color: #4fc3f7;
+  font-size: 16px;
+}
+
+.Form__Buttons__Container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+  width: 40vw;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.Form__Cancel__Button {
+  background: none;
+  border: none;
+  outline: none;
+  color: #4fc3f7;
+  width: 7rem;
+  height: 2.7rem;
+  margin: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.Form__Save__Button {
+  width: 7rem;
+  height: 2.7rem;
+  margin-right: 30px;
+  background-color: #4fc3f7;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0px 0.5px 1px 0px gray;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.Form__Cancel__Button:hover {
+  transform: translateY(-3px);
+}
+
+.Form__Save__Button:hover {
+  transform: translateY(-3px);
+}

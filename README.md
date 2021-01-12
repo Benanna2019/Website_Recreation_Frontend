@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Recreated Website for React Test (Frontend and Backend Information)
 
-## Getting Started
+Time Frame to Finish: 
+- 4hrs total to purely recreate what was asked of me. 
+- 4-6hrs total to set up authorization and learn a new backend framework and set it up within the application. 
+- Total Time: 8-10hrs
 
-First, run the development server:
+I took liberties to change up the test and I used Nextjs for the frontend to demonstrate static generation with Nextjs for faster page loading. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+I also set up authentication with Magic and the ability to post data to a backend, set up with Strapi.io. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I was given the task of recreating a certain layout for a sidebar which is a collapsable as well as a profile 'page' that models a mobile device. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+My goal was not only to model this but to also built a 'fullstack' application to demonstrate more than what was required of me. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+If desired, the app is in a state in which it could be deployed, frontend with Vercel and backend with Heroku (probably). 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Application Flow: 
+- Simple landing page with button/link to go to login page
+- Simple login page. Accepts an email, validates with Magic and once you navigate back to the app the 'profile' page is loaded. 
+- Main Profile section. I recreated the image asked for using a combination of Material UI Icons and custom CSS. 
+- The SideNavbar is a Material UI component that I altered to reflect the component in the test assets. 
+- Once you fill out the Username and Phone number fields (the email is populated based off of the email entered when you logged in), you can post the data to the database. Sidenote: Strapi is awesome. It is a frontend for creating backends and I love it. 
+- In the SideNavbar, you can click Logout and it logs you out of the app. 
 
-## Learn More
+Future Things I would Add/Finish Out: 
+- Getting the user data. This is not super important with the incredibly small scale of the simple profile information and could be done relatively quickly. 
+- A way to upload a new image file and change the image off of that file upload button. 
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
